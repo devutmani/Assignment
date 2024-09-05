@@ -1,5 +1,4 @@
-
-The wrong value is displayed because the number 3000000000 is too large for a 32-bit int, which can only store values between -2,147,483,648 and 2,147,483,647. This causes integer overflow, wrapping the value into a negative number, resulting in incorrect output.
-
+The wrong value is displayed because the number 3000000000 is too large for a 32-bit int,
+which can only store values between -2,147,483,648 and 2,147,483,647.
+This causes integer overflow, wrapping the value into a negative number, resulting in incorrect output.
 To fix this, use a larger data type like long long int that can handle bigger numbers
-
