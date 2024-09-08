@@ -39,10 +39,5 @@ int main() {
     printf("Principal: %.2f Rs.\n", principal);
     printf("Rate of Interest: %.2f%%\n", rate);
     printf("Time Period: %d years\n", time);
-
-    // You can also calculate simple interest if required:
-    // double simple_interest = (principal * rate * time) / 100;
-    // printf("The Simple Interest is: %.2f Rs.\n", simple_interest);
-
     return 0;
 }
